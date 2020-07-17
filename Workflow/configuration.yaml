@@ -1,1 +1,10 @@
-toto
+toto:
+    shortname: toto
+    defaultValue: toto
+    usage: toto
+    mandatory: true
+tata:
+    shortname: tata
+    defaultValue: tata
+    usage: tata
+    mandatory: true

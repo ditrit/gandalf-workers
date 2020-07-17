@@ -1,1 +1,10 @@
-tata
+titi:
+    shortname: titi
+    defaultValue: titi
+    usage: titi
+    mandatory: true
+tutu:
+    shortname: tutu
+    defaultValue: tutu
+    usage: tutu
+    mandatory: true
