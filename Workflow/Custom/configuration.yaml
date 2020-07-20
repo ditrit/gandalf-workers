@@ -1,10 +1,6 @@
 - name: titi
-  shortname: titi
   defaultValue: titi
-  usage: titi
   mandatory: true
 - name: tutu
-  shortname: tutu
   defaultValue: tutu
-  usage: tutu
   mandatory: true
