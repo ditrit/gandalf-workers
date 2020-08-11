@@ -2,7 +2,7 @@ model:
 name: ConnectorConfig1
 connectortype:
   name: Utils
-version: 1
+version: 2
 connectorproduct:
   name: Custom
   version: 1
