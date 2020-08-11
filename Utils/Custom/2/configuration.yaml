@@ -5,7 +5,7 @@ connectortype:
 version: 2
 connectorproduct:
   name: Custom
-  version: 1
+  version: 2
 connectortypecommands:
 - model:
   name: SEND_AUTH_MAIL
