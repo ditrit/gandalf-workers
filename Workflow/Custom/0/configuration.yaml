@@ -1,0 +1,9 @@
+name: ConnectorConfig2
+connectortype: 
+  name: Workflow
+version: 1
+connectorproduct:
+  name: Custom
+  version: 1
+connectortypecommands: []
+connectortypeevents: []

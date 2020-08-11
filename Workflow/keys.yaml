@@ -1,7 +1,4 @@
 - name: toto
   defaultValue: toto
   mandatory: true
-- name: tata
-  defaultValue: tata
-  mandatory: true
 
