@@ -1,6 +1,3 @@
 - name: titi
   defaultValue: titi
   mandatory: true
-- name: tutu
-  defaultValue: tutu
-  mandatory: true

@@ -1,0 +1,11 @@
+model:
+name: ConnectorConfig7
+connectortype:
+  name: Workflow
+version: 2
+connectorproduct:
+  name: Custom
+  version: 2
+connectortypecommands: []
+connectortypeevents: []
+
