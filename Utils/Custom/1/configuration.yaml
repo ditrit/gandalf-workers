@@ -1,8 +1,8 @@
 model:
-name: ConnectorConfig4
-connectortype:
-  name: Utils
-version: 1
+name: ConnectorConfig5
+#connectortype:
+#  name: Utils
+#version: 1
 connectorproduct:
   name: Custom
   version: 1
