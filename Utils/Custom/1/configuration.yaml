@@ -18,11 +18,13 @@ connectorevents:
   name: NEW_APP
   schema: '{"type":"string"}'
 actions:
-- model: 
+- model:
   name: totoction
-  resource: 
+  resource:
+    model:
     name: totosource
 - model:
   name: tataction
-  resource: 
+  resource:
+    model:
     name: tatasource
