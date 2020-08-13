@@ -21,10 +21,8 @@ actions:
 - model: 
   name: totoction
   resource: 
-    model: 
     name: totosource
 - model:
   name: tataction
   resource: 
-    model:
     name: tatasource
