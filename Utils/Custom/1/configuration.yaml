@@ -3,6 +3,16 @@ name: ConnectorConfig6
 #connectortype:
 #  name: Utils
 #version: 1
+resources:
+  -model:
+    name: totosource
+  -model:
+    name: tatasource
+actions:
+  -model:
+    name: totoction
+  -model:
+    name: tataction
 connectorproduct:
   name: Custom
   version: 1
