@@ -3,16 +3,6 @@ name: ConnectorConfig7
 #connectortype:
 #  name: Utils
 #version: 2
-resources:
-  -model:
-    name: totosource
-  -model:
-    name: tatasource
-actions:
-  -model:
-    name: totoction
-  -model:
-    name: tataction
 connectorproduct:
   name: Custom
   version: 2
@@ -27,3 +17,13 @@ connectortypeevents:
 - model:
   name: NEW_APP
   schema: '{"type":"string"}'
+actions:
+- model:
+  name: totoction
+- model:
+  name: tataction
+resources:
+- model:
+  name: totosource
+- model:
+  name: tatasource
