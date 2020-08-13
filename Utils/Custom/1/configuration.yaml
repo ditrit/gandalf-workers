@@ -22,9 +22,9 @@ actions:
   name: totoction
   resource:
   model:
-  name: totosource
+    name: totosource
 - model:
   name: tataction
   resource: 
   model:
-  name: tatasource
+    name: tatasource
