@@ -17,13 +17,17 @@ connectortypeevents:
 - model:
   name: NEW_APP
   schema: '{"type":"string"}'
+# resources:
+# - model:
+#   name: totosource
+# - model:
+#   name: tatasource
 actions:
 - model:
   name: totoction
+  resource: 
+    name: totosource
 - model:
   name: tataction
-resources:
-- model:
-  name: totosource
-- model:
-  name: tatasource
+  resource: 
+    name: tatasource
