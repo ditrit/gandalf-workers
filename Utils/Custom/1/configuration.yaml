@@ -24,7 +24,7 @@ actions:
       model: 
       name: totosource
 - model:
-  name: tataction
-  resource: 
-  model:
-    name: tatasource
+    name: tataction
+    resource: 
+      model:
+      name: tatasource
