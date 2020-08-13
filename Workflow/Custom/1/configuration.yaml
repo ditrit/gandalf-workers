@@ -1,8 +1,8 @@
 model:
 name: ConnectorConfig6
-connectortype:
-  name: Workflow
-version: 1
+#connectortype:
+#  name: Workflow
+#version: 1
 connectorproduct:
   name: Custom
   version: 1
