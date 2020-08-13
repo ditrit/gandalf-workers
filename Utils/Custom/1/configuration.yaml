@@ -26,10 +26,10 @@ actions:
 - model:
   name: totoction
   resource:
-  - model:
+    model:
     name: totosource
 - model:
   name: tataction
   resource: 
-  - model:
+    model:
     name: tatasource
