@@ -20,10 +20,12 @@ connectortypeevents:
 actions:
 - model:
   name: totoction
-  resource: 
-  name: totosource
+  resource:
+  - model:
+    name: totosource
 - model:
   name: tataction
   resource: 
-  name: tatasource
+  - model:
+    name: tatasource
 
