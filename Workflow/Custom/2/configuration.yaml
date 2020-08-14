@@ -8,4 +8,14 @@ connectorproduct:
   version: 2
 connectortypecommands: []
 connectortypeevents: []
-
+actions:
+- model:
+  name: totoction
+  resource:
+    model:
+    name: totosource
+- model:
+  name: tataction
+  resource:
+    model:
+    name: tatasource
