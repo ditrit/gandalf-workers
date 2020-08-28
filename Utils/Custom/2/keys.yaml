@@ -1,3 +1,4 @@
 - name: tutu
   defaultValue: tutu
+  type: string
   mandatory: false
