@@ -1,0 +1,62 @@
+model:
+name: ConnectorConfig10
+#connectortype:
+#  name: Utils
+#version: 1
+connectorproduct:
+  name: Gitlab
+  version: 1
+connectorcommands:
+- model:
+  name: CREATE_PROJECT
+  schema: '{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/CreateProject","definitions":{"CreateProject":{"required":["Name","Team","TemplateName"],"properties":{"Name":{"type":"string"},"Team":{"type":"list"},"TemplateName":{"type":"string"}},"additionalProperties":false,"type":"object"}}}'
+  - model:
+  name: ADD_MEMBER
+  schema: '{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/AddMember","definitions":{"AddMember":{"required":["ProjectID", "UserEmail"],"properties":{"ProjectID":{"type":"int"},"UserEmail":{"type":"string"}},"additionalProperties":false,"type":"object"}}}'
+  - model:
+  name: REMOVE_MEMBER
+  schema: '"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/RemoveMember","definitions":{"RemoveMember":{"required":["ProjectID", "UserEmail"],"properties":{"ProjectID":{"type":"int"},"UserEmail":{"type":"string"}},"additionalProperties":false,"type":"object"}}}'
+  - model:
+  name: ADD_HOOK
+  schema: '"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/AddHook","definitions":{"AddHook":{"required":["ProjectID", "Url", "Token", "PushEvents", "TagPushEvents", "MergeRequestsEvents", "RepositoryUpdateEvents", "EnableSslVerification"],"properties":{"ProjectID":{"type":"string"},"Url":{"type":"string"},"Token":{"type":"string"}, "PushEvents":{"type":"boolean}, "TagPushEvents":{"type":"boolean}, "MergeRequestsEvents":{"type":"boolean},"RepositoryUpdateEvents":{"type":"boolean}, "EnableSslVerification":{"type":"boolean}},"additionalProperties":false,"type":"object"}}}'
+- model:
+  name: DELETE_HOOK
+  schema: '"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/DeleteHook","definitions":{"DeleteHook":{"required":["ProjectID", "HookID"],"properties":{"ProjectID":{"type":"string"}, "HookID":{"type":"string"}},"additionalProperties":false,"type":"object"}}}'
+connectorevents:
+- model:
+  name: NEW_TAG
+  schema: '{"type":"string"}'
+- model:
+  name: MERGE_REQUEST
+  schema: '{"type":"string"}'
+actions:
+- model:
+  name: create
+  resource:
+    model:
+    name: project
+- model:
+  name: create
+  resource:
+    model:
+    name: member
+- model:
+  name: create
+  resource:
+    model:
+    name: user
+- model:
+  name: delete
+  resource:
+    model:
+    name: member
+- model:
+  name: create
+  resource:
+    model:
+    name: hook
+- model:
+  name: delete
+  resource:
+    model:
+    name: hook
