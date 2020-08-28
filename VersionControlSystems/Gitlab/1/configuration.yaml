@@ -9,7 +9,7 @@ connectorproduct:
 connectorcommands:
 - model:
   name: CREATE_PROJECT
-  schema: '{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/CreateProject","definitions":{"CreateProject":{"required":["Name","Team","TemplateName"],"properties":{"Name":{"type":"string"},"Team":{"type":"list"},"TemplateName":{"type":"string"}},"additionalProperties":false,"type":"object"}}}'
+  schema: ''
 - model:
   name: ADD_MEMBER
   schema: '{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/AddMember","definitions":{"AddMember":{"required":["ProjectID", "UserEmail"],"properties":{"ProjectID":{"type":"int"},"UserEmail":{"type":"string"}},"additionalProperties":false,"type":"object"}}}'
