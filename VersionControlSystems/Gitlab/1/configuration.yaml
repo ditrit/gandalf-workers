@@ -10,13 +10,13 @@ connectorcommands:
 - model:
   name: CREATE_PROJECT
   schema: '{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/CreateProject","definitions":{"CreateProject":{"required":["Name","Team","TemplateName"],"properties":{"Name":{"type":"string"},"Team":{"type":"list"},"TemplateName":{"type":"string"}},"additionalProperties":false,"type":"object"}}}'
-  - model:
+- model:
   name: ADD_MEMBER
   schema: '{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/AddMember","definitions":{"AddMember":{"required":["ProjectID", "UserEmail"],"properties":{"ProjectID":{"type":"int"},"UserEmail":{"type":"string"}},"additionalProperties":false,"type":"object"}}}'
-  - model:
+- model:
   name: REMOVE_MEMBER
   schema: '{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/RemoveMember","definitions":{"RemoveMember":{"required":["ProjectID", "UserEmail"],"properties":{"ProjectID":{"type":"int"},"UserEmail":{"type":"string"}},"additionalProperties":false,"type":"object"}}}'
-  - model:
+- model:
   name: ADD_HOOK
   schema: '{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/AddHook","definitions":{"AddHook":{"required":["ProjectID", "Url", "Token", "PushEvents", "TagPushEvents", "MergeRequestsEvents", "RepositoryUpdateEvents", "EnableSslVerification"],"properties":{"ProjectID":{"type":"string"},"Url":{"type":"string"},"Token":{"type":"string"}, "PushEvents":{"type":"boolean}, "TagPushEvents":{"type":"boolean}, "MergeRequestsEvents":{"type":"boolean},"RepositoryUpdateEvents":{"type":"boolean}, "EnableSslVerification":{"type":"boolean}},"additionalProperties":false,"type":"object"}}}'
 - model:
