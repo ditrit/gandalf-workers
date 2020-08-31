@@ -1,3 +1,4 @@
 - name: tata
   defaultValue: tata
+  type: string
   mandatory: true
