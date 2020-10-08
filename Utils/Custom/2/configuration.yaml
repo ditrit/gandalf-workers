@@ -26,7 +26,7 @@ connectorevents:
   action:
     - model:
       name: Execute
-ressources: 
+resources: 
 - model: 
   name: totosource
   action:
