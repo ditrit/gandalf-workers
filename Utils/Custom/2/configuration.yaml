@@ -31,13 +31,13 @@ resources:
   name: totosource
   action:
     - model:
-      name: totoction
+      name: Create
     - model:
-      name: totoction2
+      name: Update
 - model: 
   name: tatasource
   action:
     - model:
-      name: tataction
+      name: Read
     - model:
-      name: tataction2
+      name: Delete
