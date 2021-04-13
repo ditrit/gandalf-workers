@@ -1,0 +1,21 @@
+model:
+name: ConnectorConfig9
+#connectortype:
+#  name: Workflow
+#version: 2
+connectorproduct:
+  name: Custom
+  version: 2
+connectortypecommands: []
+connectortypeevents: []
+actions:
+- model:
+  name: totoction
+  resource:
+    model:
+    name: totosource
+- model:
+  name: tataction
+  resource:
+    model:
+    name: tatasource

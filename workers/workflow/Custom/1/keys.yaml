@@ -1,0 +1,4 @@
+- name: titi
+  defaultValue: titi
+  type: string
+  mandatory: true

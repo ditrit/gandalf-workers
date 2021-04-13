@@ -1,0 +1,42 @@
+model:
+name: UtilsCustom1.0
+major: 1
+minor: 0
+product:
+- model:
+  name: custom
+commandtypes:
+- model:
+  name: SEND_AUTH_MAil_2
+  schema: '{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/MailPayload","definitions":{"MailPayload":{"required":["Sender","Body","Receivers","Username","Password","Host"],"properties":{"Sender":{"type":"string"},"Body":{"type":"string"},"Receivers":{"items":{"type":"string"},"type":"array"},"Username":{"type":"string"},"Password":{"type":"string"},"Host":{"type":"string"}},"additionalProperties":false,"type":"object"}}}'
+- model:
+  name: CREATE_FORM_2
+  schema: '{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/FormPayload","definitions":{"Field":{"required":["Name","HtmlType","Value"],"properties":{"Name":{"type":"string"},"HtmlType":{"type":"string"},"Value":{"additionalProperties":true}},"additionalProperties":false,"type":"object"},"FormPayload":{"required":["Fields"],"properties":{"Fields":{"items":{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/Field"},"type":"array"}},"additionalProperties":false,"type":"object"}}}'
+eventtypes:
+- model:
+  name: NEW_APP_2
+  schema: '{"type":"string"}'
+resourcetypes: 
+- model: 
+  name: tutusource
+- model: 
+  name: titisource
+keys:
+- model:
+  name: tutukey     
+	defaultValue: tutu    
+	type: string
+	shortname:     
+	mandatory: true
+- model:
+  name: titikey     
+	defaultValue:    
+	type: string
+	shortname:     
+	mandatory: true
+resource:
+- model:
+  name: tutu
+- model:
+  name: titi
+

@@ -1,6 +1,0 @@
-- name: toto
-  defaultValue: toto
-  type: string
-  mandatory: false
-
-
