@@ -1,14 +1,8 @@
 model:
-name: Connector
+name: connector
 major: 1
 minor: 0
 keys:
-- model:
-  name: max_timeout     
-	defaultValue:     
-	type: int
-	shortname:     
-	mandatory: true
 - model:
   name: update_mode     
 	defaultValue:     
