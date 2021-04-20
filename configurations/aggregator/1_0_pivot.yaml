@@ -5,7 +5,7 @@ minor: 0
 keys:
 - model:
   name: repository_url     
-	defaultValue:     
-	type: string
-	shortname:     
-	mandatory: true
+  defaultValue:     
+  type: string
+  shortname:     
+  mandatory: true
