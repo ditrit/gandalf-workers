@@ -21,14 +21,14 @@ resourcetypes:
 keys:
 - model:
   name: totokey     
-	defaultValue: toto    
-	type: string
-	shortname:     
-	mandatory: true
+  defaultValue: toto    
+  type: string
+  shortname:     
+  mandatory: true
 - model:
   name: tatakey     
-	defaultValue:    
-	type: string
-	shortname:     
-	mandatory: true      
+  defaultValue:    
+  type: string
+  shortname:     
+  mandatory: true      
 

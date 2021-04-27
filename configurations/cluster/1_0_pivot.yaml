@@ -4,8 +4,8 @@ major: 1
 minor: 0
 keys:
 - model:
-  name: repository_url     
-  defaultValue:     
+  name: repository_url 
+  defaultValue:
   type: string
-  shortname:     
+  shortname:
   mandatory: true

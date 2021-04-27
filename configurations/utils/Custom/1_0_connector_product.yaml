@@ -24,17 +24,17 @@ resourcetypes:
 keys:
 - model:
   name: tutukey     
-	defaultValue: tutu    
-	type: string
-	shortname:     
-	mandatory: true
+  defaultValue: tutu    
+  type: string
+  shortname:     
+  mandatory: true
 - model:
   name: titikey     
-	defaultValue:    
-	type: string
-	shortname:     
-	mandatory: true
-resource:
+  defaultValue:    
+  type: string
+  shortname:     
+  mandatory: true
+resources:
 - model:
   name: tutu
 - model:
