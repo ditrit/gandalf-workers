@@ -20,6 +20,18 @@ resourcetypes:
   name: tatasource
 keys:
 - model:
+  name: update_mode     
+	defaultValue:     
+	type: string
+	shortname:     
+	mandatory: true
+- model:
+  name: update_time     
+	defaultValue:     
+	type: string
+	shortname:     
+	mandatory: true
+- model:
   name: totokey     
   defaultValue: toto    
   type: string
