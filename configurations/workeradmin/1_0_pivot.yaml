@@ -1,5 +1,5 @@
 model:
-name: WorkerAdmin
+name: admin
 major: 1
 minor: 0
 commandtypes:
