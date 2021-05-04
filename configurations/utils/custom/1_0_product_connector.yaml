@@ -33,9 +33,4 @@ keys:
   type: string
   shortname:     
   mandatory: true
-resources:
-- model:
-  name: tutu
-- model:
-  name: titi
 
