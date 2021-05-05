@@ -1,0 +1,23 @@
+model:
+name: vcs
+major: 1
+minor: 0
+commandtypes:
+eventtypes:
+resourcetypes: 
+- model: 
+  name: repository
+keys:
+- model:
+  name: update_mode    
+  defaultValue: 
+  type: string
+  shortname:  
+  mandatory: true
+- model:
+  name: update_time
+  defaultValue: 
+  type: string
+  shortname:  
+  mandatory: true    
+
