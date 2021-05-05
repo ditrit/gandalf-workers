@@ -8,10 +8,10 @@ commandtypes:
 - model:
   name: CREATE_REPOSITORY
   schema: '{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/CreateRepositoryPayload","definitions":{"CreateRepositoryPayload":{"required":["Username","Password","Token","Name","Description","Private"],"properties":{"Username":{"type":"string"},"Password":{"type":"string"},"Token":{"type":"string"},"Name":{"type":"string"},"Description":{"type":"string"},"Private":{"type":"boolean"}},"additionalProperties":false,"type":"object"}}}'
-  - model:
+- model:
   name: CREATE_REPOSITORY_FROM_TEMPLATE
   schema: '{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/CreateRepositoryFromTemplatePayload","definitions":{"CreateRepositoryFromTemplatePayload":{"required":["Username","Password","Token","TemplateOwner","TemplateRepo","Name","Owner","Description","Private"],"properties":{"Username":{"type":"string"},"Password":{"type":"string"},"Token":{"type":"string"},"TemplateOwner":{"type":"string"},"TemplateRepo":{"type":"string"},"Name":{"type":"string"},"Owner":{"type":"string"},"Description":{"type":"string"},"Private":{"type":"boolean"}},"additionalProperties":false,"type":"object"}}}'
-  - model:
+- model:
   name: DELETE_REPOSITORY
   schema: '{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/DeleteRepositoryPayload","definitions":{"DeleteRepositoryPayload":{"required":["Username","Password","Token","Owner","Repository"],"properties":{"Username":{"type":"string"},"Password":{"type":"string"},"Token":{"type":"string"},"Owner":{"type":"string"},"Repository":{"type":"string"}},"additionalProperties":false,"type":"object"}}}'
 eventtypes:
