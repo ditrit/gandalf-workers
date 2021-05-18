@@ -1,0 +1,27 @@
+model:
+name: VcsCustom1.0
+major: 1
+minor: 0
+product:
+  name: custom
+commandtypes: []
+eventtypes: []
+resourcetypes: 
+- model: 
+  name: tutusource
+- model: 
+  name: titisource
+keys:
+- model:
+  name: tutukey     
+  defaultValue: tutu    
+  type: string
+  shortname:     
+  mandatory: true
+- model:
+  name: titikey     
+  defaultValue:    
+  type: string
+  shortname:     
+  mandatory: true
+

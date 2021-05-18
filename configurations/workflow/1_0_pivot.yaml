@@ -1,0 +1,37 @@
+model:
+name: vcs
+major: 1
+minor: 0
+commandtypes: []
+eventtypes: []
+resourcetypes: 
+- model: 
+  name: totosource
+- model: 
+  name: tatasource
+keys:
+- model:
+  name: update_mode    
+  defaultValue: 
+  type: string
+  shortname:  
+  mandatory: true
+- model:
+  name: update_time
+  defaultValue: 
+  type: string
+  shortname:  
+  mandatory: true
+- model:
+  name: totokey     
+  defaultValue: toto    
+  type: string
+  shortname:     
+  mandatory: true
+- model:
+  name: tatakey     
+  defaultValue:    
+  type: string
+  shortname:     
+  mandatory: true      
+
