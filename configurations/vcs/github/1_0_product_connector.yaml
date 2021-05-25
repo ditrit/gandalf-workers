@@ -16,10 +16,10 @@ commandtypes:
   schema: '{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/DeleteRepositoryPayload","definitions":{"DeleteRepositoryPayload":{"required":["Token","Owner","Repository"],"properties":{"Token":{"type":"string"},"Owner":{"type":"string"},"Repository":{"type":"string"}},"additionalProperties":false,"type":"object"}}}'
 - model:
   name: CREATE_ISSUE
-  schema: '{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/CreateRepositoryPayload","definitions":{"CreateRepositoryPayload":{"required":["Token","Owner","Repository","Title","Body"],"properties":{"Token":{"type":"string"},"Owner":{"type":"string"},"Repository":{"type":"string"},"Title":{"type":"string"},"Body":{"type":"string"}},"additionalProperties":false,"type":"object"}}}'
+  schema: '{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/CreateIssuePayload","definitions":{"CreateIssuePayload":{"required":["Token","Owner","Repository","Title","Body"],"properties":{"Token":{"type":"string"},"Owner":{"type":"string"},"Repository":{"type":"string"},"Title":{"type":"string"},"Body":{"type":"string"}},"additionalProperties":false,"type":"object"}}}'
 - model:
   name: CREATE_PULL
-  schema: '{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/CreateRepositoryPayload","definitions":{"CreateRepositoryPayload":{"required":["Token","Owner","Repository","Title","Body","Head","Base"],"properties":{"Token":{"type":"string"},"Owner":{"type":"string"},"Repository":{"type":"string"},"Title":{"type":"string"},"Body":{"type":"string"},"Head":{"type":"string"},"Base":{"type":"string"}},"additionalProperties":false,"type":"object"}}}'
+  schema: '{"$schema":"http://json-schema.org/draft-04/schema#","$ref":"#/definitions/CreatePullPayload","definitions":{"CreatePullPayload":{"required":["Token","Owner","Repository","Title","Body","Head","Base"],"properties":{"Token":{"type":"string"},"Owner":{"type":"string"},"Repository":{"type":"string"},"Title":{"type":"string"},"Body":{"type":"string"},"Head":{"type":"string"},"Base":{"type":"string"}},"additionalProperties":false,"type":"object"}}}'
 eventtypes:
 - model:
   name: COMMIT
