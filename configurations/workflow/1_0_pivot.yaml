@@ -1,5 +1,5 @@
 model:
-name: vcs
+name: workflow
 major: 1
 minor: 0
 commandtypes: []
